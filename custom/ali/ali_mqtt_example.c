@@ -122,7 +122,7 @@ const char *DEVICE_INFO_UPDATE_FMT = "{'id':'%d','version':'1.0.0','params':["
 #define CMD_NET_STATUS_GET_HEAD         "AT+ILOPCONNECT"
 #define CMD_APP_VERSION_GET_HEAD        "AT+APPVER"
 #define CMD_RESET_HEAD                  "AT+RESET"
-
+#define CMD_RUN_THROUGH_MODE			"AT+SENDPASS"
 #define AT_CMD_END_FLAG                 "\r\n"
 
 
@@ -1141,7 +1141,7 @@ static void CallBack_UART_Hdlr(Enum_SerialPort port, Enum_UARTEventType msg, boo
 	                        Ql_OS_SendMessage(main_task_id, MSG_ID_USER_DATA, CMD_RESET, 0);
 	                        return;
 	                    }
-						else if(!Ql_strncmp(m_RxBuf_Uart,"AT+SENDPASS", Ql_strlen("AT+SENDPASS")))
+						else if(!Ql_strncmp(m_RxBuf_Uart,CMD_RUN_THROUGH_MODE, Ql_strlen(CMD_RUN_THROUGH_MODE)))
 						{
 							write_run_through_flag_tofs("1",&writeLen);
 							m2m_comm_mode = RUN_THROUGH_MODE;
