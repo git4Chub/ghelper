@@ -1,0 +1,228 @@
+- Building build/gcc/obj/custom/ali/ali_mqtt_example.o
+In file included from libs/ali/infra/infra_types.h:24,
+                 from libs/ali/infra/infra_defs.h:4,
+                 from libs/ali/dev_sign/dev_sign_internal.h:5,
+                 from libs/ali/dev_sign/dev_sign_api.h:4,
+                 from custom/ali/ali_mqtt_example.c:56:
+G:\EmbeddedDK\CSDTK42/mips-elf-4.4.2/mips-elf/sys-include/stdint.h:114:5: warning: "__have_long64" is not defined
+G:\EmbeddedDK\CSDTK42/mips-elf-4.4.2/mips-elf/sys-include/stdint.h:211:6: warning: "__int_fast64_t_defined" is not defined
+G:\EmbeddedDK\CSDTK42/mips-elf-4.4.2/mips-elf/sys-include/stdint.h:311:5: warning: "__have_long64" is not defined
+G:\EmbeddedDK\CSDTK42/mips-elf-4.4.2/mips-elf/sys-include/stdint.h:323:5: warning: "__have_long64" is not defined
+custom/ali/ali_mqtt_example.c: In function 'proc_main_task':
+custom/ali/ali_mqtt_example.c:402: warning: pointer targets in passing argument 2 of 'read_run_through_flag_fromfs' differ in signedness
+custom/ali/ali_mqtt_example.c:370: note: expected 's32 *' but argument is of type 'u32 *'
+custom/ali/ali_mqtt_example.c:461: warning: pointer targets in passing argument 2 of 'read_device_info_fromfs' differ in signedness
+custom/ali/ali_mqtt_example.c:365: note: expected 's32 *' but argument is of type 'u32 *'
+custom/ali/ali_mqtt_example.c:464: warning: pointer targets in passing argument 2 of 'get_device_info' differ in signedness
+custom/utils/data_process.h:22: note: expected 'char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:464: warning: pointer targets in passing argument 3 of 'get_device_info' differ in signedness
+custom/utils/data_process.h:22: note: expected 'char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:464: warning: pointer targets in passing argument 4 of 'get_device_info' differ in signedness
+custom/utils/data_process.h:22: note: expected 'char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:475: warning: pointer targets in passing argument 2 of 'read_productsecret_fromfs' differ in signedness
+custom/ali/ali_mqtt_example.c:367: note: expected 's32 *' but argument is of type 'u32 *'
+custom/ali/ali_mqtt_example.c:478: warning: pointer targets in passing argument 2 of 'get_product_secret' differ in signedness
+custom/utils/data_process.h:21: note: expected 'char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:485: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness
+include/ql_stdlib.h:88: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:486: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness
+include/ql_stdlib.h:88: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:487: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness
+include/ql_stdlib.h:88: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:488: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness
+include/ql_stdlib.h:88: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:492: warning: 'return' with a value, in function returning void
+custom/ali/ali_mqtt_example.c:574: warning: assignment makes pointer from integer without a cast
+custom/ali/ali_mqtt_example.c:596: warning: assignment makes pointer from integer without a cast
+custom/ali/ali_mqtt_example.c:628: warning: assignment makes pointer from integer without a cast
+custom/ali/ali_mqtt_example.c:643: warning: assignment makes pointer from integer without a cast
+custom/ali/ali_mqtt_example.c:670: warning: assignment makes pointer from integer without a cast
+custom/ali/ali_mqtt_example.c:688: warning: assignment makes pointer from integer without a cast
+custom/ali/ali_mqtt_example.c:706: warning: assignment makes pointer from integer without a cast
+custom/ali/ali_mqtt_example.c:785: warning: pointer targets in passing argument 2 of 'get_paylaod' differ in signedness
+custom/utils/data_process.h:24: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:806: warning: pointer targets in passing argument 1 of 'get_event_name' differ in signedness
+custom/utils/data_process.h:23: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:807: warning: pointer targets in passing argument 2 of 'get_paylaod' differ in signedness
+custom/utils/data_process.h:24: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:827: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness
+include/ql_stdlib.h:90: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:829: warning: pointer targets in passing argument 2 of 'write_device_info_tofs' differ in signedness
+custom/ali/ali_mqtt_example.c:366: note: expected 's32 *' but argument is of type 'u32 *'
+custom/ali/ali_mqtt_example.c:844: warning: pointer targets in passing argument 2 of 'read_device_info_fromfs' differ in signedness
+custom/ali/ali_mqtt_example.c:365: note: expected 's32 *' but argument is of type 'u32 *'
+custom/ali/ali_mqtt_example.c:860: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness
+include/ql_stdlib.h:90: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:862: warning: pointer targets in passing argument 2 of 'write_productsecret_tofs' differ in signedness
+custom/ali/ali_mqtt_example.c:368: note: expected 's32 *' but argument is of type 'u32 *'
+custom/ali/ali_mqtt_example.c:877: warning: pointer targets in passing argument 2 of 'read_productsecret_fromfs' differ in signedness
+custom/ali/ali_mqtt_example.c:367: note: expected 's32 *' but argument is of type 'u32 *'
+custom/ali/ali_mqtt_example.c:883: warning: pointer targets in passing argument 2 of 'uart_write_data' differ in signedness
+custom/ali/ali_mqtt_example.c:346: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:385: warning: unused variable 'dev_info'
+custom/ali/ali_mqtt_example.c:384: warning: unused variable 'buff'
+custom/ali/ali_mqtt_example.c: In function 'ReadSerialPort':
+custom/ali/ali_mqtt_example.c:958: warning: unused variable 'cnt'
+custom/ali/ali_mqtt_example.c: In function 'CallBack_UART_Hdlr':
+custom/ali/ali_mqtt_example.c:1023: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness
+include/ql_stdlib.h:81: note: expected 'char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1023: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness
+include/ql_stdlib.h:81: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1032: warning: pointer targets in passing argument 1 of 'Ql_strncmp' differ in signedness
+include/ql_stdlib.h:86: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1044: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness
+include/ql_stdlib.h:81: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1050: warning: pointer targets in passing argument 5 of 'RIL_MQTT_QMTPUB' differ in signedness
+ril/inc/ril_mqtt.h:258: note: expected 'u8 *' but argument is of type 'char *'
+custom/ali/ali_mqtt_example.c:1087: warning: pointer targets in passing argument 1 of 'Ql_strncmp' differ in signedness
+include/ql_stdlib.h:86: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1092: warning: pointer targets in passing argument 1 of 'Ql_strncmp' differ in signedness
+include/ql_stdlib.h:86: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1097: warning: pointer targets in passing argument 1 of 'Ql_strncmp' differ in signedness
+include/ql_stdlib.h:86: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1099: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness
+include/ql_stdlib.h:88: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1109: warning: pointer targets in passing argument 1 of 'Ql_strncmp' differ in signedness
+include/ql_stdlib.h:86: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1114: warning: pointer targets in passing argument 1 of 'Ql_strncmp' differ in signedness
+include/ql_stdlib.h:86: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1116: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness
+include/ql_stdlib.h:88: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1126: warning: pointer targets in passing argument 1 of 'Ql_strncmp' differ in signedness
+include/ql_stdlib.h:86: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1131: warning: pointer targets in passing argument 1 of 'Ql_strncmp' differ in signedness
+include/ql_stdlib.h:86: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1136: warning: pointer targets in passing argument 1 of 'Ql_strncmp' differ in signedness
+include/ql_stdlib.h:86: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1141: warning: pointer targets in passing argument 1 of 'Ql_strncmp' differ in signedness
+include/ql_stdlib.h:86: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1146: warning: pointer targets in passing argument 1 of 'Ql_strncmp' differ in signedness
+include/ql_stdlib.h:86: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c: In function 'callback_mqtt_recv':
+custom/ali/ali_mqtt_example.c:1200: warning: pointer targets in passing argument 1 of 'seek_comma_pos' differ in signedness
+custom/utils/data_process.h:20: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1201: warning: pointer targets in passing argument 1 of 'seek_comma_pos' differ in signedness
+custom/utils/data_process.h:20: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1231: warning: pointer targets in passing argument 1 of 'cJSON_Parse' differ in signedness
+libs/cjson/cJSON.h:124: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1245: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness
+custom/ali/ali_mqtt_example.c:1245: note: expected 'char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1246: warning: pointer targets in passing argument 2 of 'uart_write_data' differ in signedness
+custom/ali/ali_mqtt_example.c:346: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1252: warning: pointer targets in passing argument 1 of 'cJSON_Parse' differ in signedness
+libs/cjson/cJSON.h:124: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1264: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness
+include/ql_stdlib.h:81: note: expected 'char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1265: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness
+include/ql_stdlib.h:88: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1283: warning: pointer targets in passing argument 1 of 'cJSON_Parse' differ in signedness
+libs/cjson/cJSON.h:124: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1187: warning: unused variable 'service_payload'
+custom/ali/ali_mqtt_example.c:1185: warning: unused variable 'pstr'
+custom/ali/ali_mqtt_example.c:1184: warning: unused variable 'pstart'
+custom/ali/ali_mqtt_example.c: In function 'Callback_Timer':
+custom/ali/ali_mqtt_example.c:1443: warning: pointer targets in passing argument 2 of 'RIL_MQTT_QMTOPEN' differ in signedness
+ril/inc/ril_mqtt.h:161: note: expected 'u8 *' but argument is of type 'char *'
+custom/ali/ali_mqtt_example.c:1334: warning: unused variable 'ota_sub_topic'
+custom/ali/ali_mqtt_example.c: In function 'ATResponse_Handler':
+custom/ali/ali_mqtt_example.c:1660: warning: pointer targets in passing argument 2 of 'uart_write_data' differ in signedness
+custom/ali/ali_mqtt_example.c:346: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c: In function 'iotx_report_devinfo':
+custom/ali/ali_mqtt_example.c:1717: warning: pointer targets in passing argument 5 of 'RIL_MQTT_QMTPUB' differ in signedness
+ril/inc/ril_mqtt.h:258: note: expected 'u8 *' but argument is of type 'char *'
+custom/ali/ali_mqtt_example.c:1717: warning: pointer targets in passing argument 7 of 'RIL_MQTT_QMTPUB' differ in signedness
+ril/inc/ril_mqtt.h:258: note: expected 'u8 *' but argument is of type 'char *'
+custom/ali/ali_mqtt_example.c: In function 'iotx_report_firmware_version':
+custom/ali/ali_mqtt_example.c:1776: warning: pointer targets in passing argument 5 of 'RIL_MQTT_QMTPUB' differ in signedness
+ril/inc/ril_mqtt.h:258: note: expected 'u8 *' but argument is of type 'char *'
+custom/ali/ali_mqtt_example.c:1776: warning: pointer targets in passing argument 7 of 'RIL_MQTT_QMTPUB' differ in signedness
+ril/inc/ril_mqtt.h:258: note: expected 'u8 *' but argument is of type 'char *'
+custom/ali/ali_mqtt_example.c: In function 'example_publish':
+custom/ali/ali_mqtt_example.c:1837: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness
+include/ql_stdlib.h:88: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1837: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness
+include/ql_stdlib.h:88: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1841: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness
+include/ql_stdlib.h:88: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1841: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness
+include/ql_stdlib.h:88: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:1863: warning: pointer targets in passing argument 5 of 'RIL_MQTT_QMTPUB' differ in signedness
+ril/inc/ril_mqtt.h:258: note: expected 'u8 *' but argument is of type 'char *'
+custom/ali/ali_mqtt_example.c:1863: warning: pointer targets in passing argument 7 of 'RIL_MQTT_QMTPUB' differ in signedness
+ril/inc/ril_mqtt.h:258: note: expected 'u8 *' but argument is of type 'char *'
+custom/ali/ali_mqtt_example.c:1867: warning: pointer targets in passing argument 5 of 'RIL_MQTT_QMTPUB' differ in signedness
+ril/inc/ril_mqtt.h:258: note: expected 'u8 *' but argument is of type 'char *'
+custom/ali/ali_mqtt_example.c:1867: warning: pointer targets in passing argument 7 of 'RIL_MQTT_QMTPUB' differ in signedness
+ril/inc/ril_mqtt.h:258: note: expected 'u8 *' but argument is of type 'char *'
+custom/ali/ali_mqtt_example.c: In function 'read_fromfs':
+custom/ali/ali_mqtt_example.c:1983: warning: passing argument 1 of 'Ql_FS_Open' discards qualifiers from pointer target type
+include/ql_fs.h:120: note: expected 'char *' but argument is of type 'const char *'
+custom/ali/ali_mqtt_example.c:1994: warning: pointer targets in passing argument 2 of 'Ql_FS_Read' differ in signedness
+include/ql_fs.h:182: note: expected 'u8 *' but argument is of type 'char *'
+custom/ali/ali_mqtt_example.c:1994: warning: pointer targets in passing argument 4 of 'Ql_FS_Read' differ in signedness
+include/ql_fs.h:182: note: expected 'u32 *' but argument is of type 's32 *'
+custom/ali/ali_mqtt_example.c:1977: warning: unused variable 'read_buff'
+custom/ali/ali_mqtt_example.c:2014:49: warning: unknown escape sequence '\<'
+custom/ali/ali_mqtt_example.c: In function 'write_tofs':
+custom/ali/ali_mqtt_example.c:2034: warning: passing argument 1 of 'Ql_FS_Delete' discards qualifiers from pointer target type
+include/ql_fs.h:342: note: expected 'char *' but argument is of type 'const char *'
+custom/ali/ali_mqtt_example.c:2037: warning: passing argument 1 of 'Ql_FS_Open' discards qualifiers from pointer target type
+include/ql_fs.h:120: note: expected 'char *' but argument is of type 'const char *'
+custom/ali/ali_mqtt_example.c:2059: warning: passing argument 2 of 'Ql_FS_Write' discards qualifiers from pointer target type
+include/ql_fs.h:214: note: expected 'u8 *' but argument is of type 'const char *'
+custom/ali/ali_mqtt_example.c:2059: warning: pointer targets in passing argument 4 of 'Ql_FS_Write' differ in signedness
+include/ql_fs.h:214: note: expected 'u32 *' but argument is of type 's32 *'
+custom/ali/ali_mqtt_example.c:2067: warning: passing argument 1 of 'Ql_FS_Open' discards qualifiers from pointer target type
+include/ql_fs.h:120: note: expected 'char *' but argument is of type 'const char *'
+custom/ali/ali_mqtt_example.c:2078: warning: pointer targets in passing argument 2 of 'Ql_FS_Read' differ in signedness
+include/ql_fs.h:182: note: expected 'u8 *' but argument is of type 'char *'
+custom/ali/ali_mqtt_example.c:2078: warning: pointer targets in passing argument 4 of 'Ql_FS_Read' differ in signedness
+include/ql_fs.h:182: note: expected 'u32 *' but argument is of type 's32 *'
+custom/ali/ali_mqtt_example.c: In function 'read_device_info_fromfs':
+custom/ali/ali_mqtt_example.c:2106: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness
+custom/ali/ali_mqtt_example.c:2106: note: expected 'char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:2108: warning: pointer targets in passing argument 1 of 'read_fromfs' differ in signedness
+custom/ali/ali_mqtt_example.c:1972: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c: In function 'write_device_info_tofs':
+custom/ali/ali_mqtt_example.c:2119: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness
+custom/ali/ali_mqtt_example.c:2119: note: expected 'char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:2121: warning: pointer targets in passing argument 1 of 'write_tofs' differ in signedness
+custom/ali/ali_mqtt_example.c:2006: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c: In function 'read_productsecret_fromfs':
+custom/ali/ali_mqtt_example.c:2132: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness
+custom/ali/ali_mqtt_example.c:2132: note: expected 'char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:2134: warning: pointer targets in passing argument 1 of 'read_fromfs' differ in signedness
+custom/ali/ali_mqtt_example.c:1972: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c: In function 'write_productsecret_tofs':
+custom/ali/ali_mqtt_example.c:2146: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness
+custom/ali/ali_mqtt_example.c:2146: note: expected 'char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:2148: warning: pointer targets in passing argument 1 of 'write_tofs' differ in signedness
+custom/ali/ali_mqtt_example.c:2006: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c: In function 'read_run_through_flag_fromfs':
+custom/ali/ali_mqtt_example.c:2159: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness
+custom/ali/ali_mqtt_example.c:2159: note: expected 'char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:2161: warning: pointer targets in passing argument 1 of 'read_fromfs' differ in signedness
+custom/ali/ali_mqtt_example.c:1972: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:2161: warning: passing argument 2 of 'read_fromfs' discards qualifiers from pointer target type
+custom/ali/ali_mqtt_example.c:1972: note: expected 'char *' but argument is of type 'const char *'
+custom/ali/ali_mqtt_example.c: In function 'write_run_through_flag_tofs':
+custom/ali/ali_mqtt_example.c:2173: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness
+custom/ali/ali_mqtt_example.c:2173: note: expected 'char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:2175: warning: pointer targets in passing argument 1 of 'write_tofs' differ in signedness
+custom/ali/ali_mqtt_example.c:2006: note: expected 'const char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c: In function 'iotx_report_device_imei_info':
+custom/ali/ali_mqtt_example.c:2190: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness
+custom/ali/ali_mqtt_example.c:2190: note: expected 'char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c:2193: warning: pointer targets in passing argument 3 of 'example_user_post_property' differ in signedness
+custom/ali/ali_mqtt_example.c:1888: note: expected 'char *' but argument is of type 'u8 *'
+custom/ali/ali_mqtt_example.c: At top level:
+custom/ali/ali_mqtt_example.c:275: warning: 'count' defined but not used
+custom/ali/ali_mqtt_example.c:334: warning: 'proc_handle' declared 'static' but never defined
+----------------------------------------------------
+- GCC Compiling Finished Sucessfully.
+- The target image is in the build/gcc directory.
+----------------------------------------------------
+BIN: build/gcc/APPGS5MDM32A01.bin
+LOD: build/gcc/APPGS5MDM32A01.lod
+Start address: 137428992
+Sector size: 4096
