@@ -30,7 +30,7 @@
  *     Download image bin to module to run.
  * 
  * note:
- *     
+ *     add run_through function.
  *============================================================================
  *             HISTORY
  *----------------------------------------------------------------------------
@@ -124,7 +124,6 @@ const char *DEVICE_INFO_UPDATE_FMT = "{'id':'%d','version':'1.0.0','params':["
 #define CMD_RESET_HEAD                  "AT+RESET"
 #define CMD_RUN_THROUGH_MODE			"AT+SENDPASS"
 #define AT_CMD_END_FLAG                 "\r\n"
-
 
 #define APP_FIRMWARE_VERSION            "1.0.0"
 
